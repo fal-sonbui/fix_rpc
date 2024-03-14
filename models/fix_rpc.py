@@ -1,6 +1,6 @@
 import xmlrpc.client
 from odoo.http import Controller, dispatch_rpc, request
-from odoo.odoo.addons.base.controller.rpc import RPC
+from odoo.addons.base.controller.rpc import RPC
 
 class RPC(Controller):
     def _xmlrpc(self, service):
