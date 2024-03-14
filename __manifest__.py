@@ -8,8 +8,7 @@
         Change some methods to return True, so that XMLRPC can be called.
     """,
     "depends" : [
-        "sale",
-        "stock",
+        "base",
     ],
     "data" : [
     ],
