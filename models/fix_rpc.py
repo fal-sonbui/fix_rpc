@@ -4,6 +4,7 @@ from odoo.addons.base.controllers.rpc import RPC
 
 class RPC(Controller):
     def _xmlrpc(self, service):
+        print("GOTIT!")
         """Common method to handle an XML-RPC request."""
         data = request.httprequest.get_data()
         params, method = xmlrpc.client.loads(data)
